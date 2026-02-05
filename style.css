@@ -1,0 +1,62 @@
+body.hacker {
+  background: black;
+  color: #00ff00;
+  font-family: Consolas, monospace;
+  text-align: center;
+}
+
+.login-box {
+  margin-top: 150px;
+}
+
+input {
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ff00;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.cell {
+  width: 120px;
+  height: 60px;
+  border: 1px solid #00ff00;
+}
+
+.gold {
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
+
+.top-bar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.gold-btn {
+  margin-top: 60px;
+  font-size: 18px;
+}
