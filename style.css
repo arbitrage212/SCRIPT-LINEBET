@@ -1,10 +1,12 @@
 body.hacker {
+body.hacker {
   background: black;
   color: #00ff00;
   font-family: Consolas, monospace;
   text-align: center;
 }
 
+/* LOGIN */
 .login-box {
   margin-top: 150px;
 }
@@ -30,33 +32,48 @@ button:hover {
   color: black;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 120px);
-  gap: 10px;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.cell {
-  width: 120px;
-  height: 60px;
-  border: 1px solid #00ff00;
-}
-
-.gold {
-  background: gold;
-  color: black;
-  font-weight: bold;
-}
-
+/* TOP BAR */
 .top-bar {
   position: absolute;
   top: 10px;
   right: 20px;
+  font-size: 18px;
 }
 
+/* GOLD BUTTON */
 .gold-btn {
-  margin-top: 60px;
+  margin-top: 70px;
   font-size: 18px;
+}
+
+/* GRID */
+.grid {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+/* EACH ROW = 2 CELLS */
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+/* CELL */
+.cell {
+  width: 120px;
+  height: 60px;
+  border: 1px solid #00ff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GOLD STATE */
+.gold {
+  background: gold;
+  color: black;
+  font-weight: bold;
 }
